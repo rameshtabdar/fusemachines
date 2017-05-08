@@ -110,6 +110,10 @@
 	}
 }
 @media (max-width: 768px) {
+	header[role="main-header"] {
+		min-height: 60px;
+		padding: 15px 15px 15px 0;
+	}
 	section[role="main-slider"] .slide ul li .carousel-caption {
 		width: 70%;
 	}
@@ -127,6 +131,9 @@
 		font-size: 24px;
 		line-height: 30px;
 	}
+	section[role="main-slider"] .slide ul li .carousel-caption {
+		top: 10%;
+	}
 	section.s1 .polygon-bg {
 		width: 290px;
 		height: 290px;
@@ -138,6 +145,11 @@
 	}
 	section.s1 ul li:nth-child(2n) {
 		margin-left: 0;
+	}
+	.s2 header h2,
+	.s3 header h2 {
+		font-size: 38px;
+		line-height: 44px;
 	}
 	.s2 ul li {
 		width: 100%;
