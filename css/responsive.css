@@ -50,7 +50,7 @@
 	}
 	header[role="main-header"] nav[role="main-menu"] ul li {
 		width: 100%;
-		border-top: #fff solid 1px;
+		border-top: rgba(255,255,255,0.5) solid 1px;
 	}
 	header[role="main-header"] nav[role="main-menu"] ul li a {
 		padding: 10px 5px;
@@ -73,6 +73,10 @@
 	}
 	.hamburger-icon {
 		display: block;
+	}
+	header[role="main-header"] nav[role="main-menu"] ul li a.login, header[role="main-header"] nav[role="main-menu"] ul li .contact-num {
+		margin-left: 0;
+		padding-left: 0;
 	}
 	section[role="main-slider"] .slide ul li .carousel-caption {
 		left: 10%;
