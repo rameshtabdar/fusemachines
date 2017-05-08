@@ -162,6 +162,13 @@
     -o-transform: translate(0, 0);
     transform: translate(0, 0);
 	}
+	.fuse-chat {
+    right: 10px;
+    width: 60px;
+    height: 60px;
+    background-size: 34px auto;
+    cursor: pointer;
+	}
 	footer[role="main-footer"] .foot-menu {
 		display: none;
 	}
